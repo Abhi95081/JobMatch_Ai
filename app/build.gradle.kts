@@ -67,8 +67,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation("org.apache.pdfbox:pdfbox-android:1.8.10")
-    implementation ("com.tom_roush:pdfbox-android:2.0.0")
+    implementation ("com.tom-roush:pdfbox-android:2.0.27.0")
 
 
 

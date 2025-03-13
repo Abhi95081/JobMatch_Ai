@@ -22,6 +22,9 @@ import com.example.jobmatchai.ui.theme.JobMatchAiTheme
 import java.io.File
 import java.io.FileOutputStream
 import java.io.InputStream
+import com.tom_roush.pdfbox.pdmodel.PDDocument
+import com.tom_roush.pdfbox.text.PDFTextStripper
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
